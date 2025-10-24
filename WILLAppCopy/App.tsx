@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, ScrollView, TouchableOpacity } from 'react-native';
 import { useState } from 'react';
 import { SafeAreaView } from 'react-navigation';
+import React from 'react';
 
 // navigation component like the burger menu, the bottom tab nav, the images for the tabs and other components
 import { createStackNavigator, createDrawerNavigator} from 'react-navigation';
@@ -30,7 +31,6 @@ import Gardening from './Courses/6-weeks/Gardening';
 import Cooking from './Courses/6-weeks/Cooking';
 
 const Tab = createBottomTabNavigator();
-const Drawer =  createDrawerNavigator();
 
 export default function NavBar() {
   return (
@@ -63,12 +63,6 @@ export default function NavBar() {
         />
        </Tab.Navigator>
     </NavigationContainer>
-  );
-}
-
-export function BurgerMenu(){
-  return(
-
   );
 }
 
