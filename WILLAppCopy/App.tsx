@@ -101,6 +101,8 @@ const SixMonthCourses = [
   { page: 4, name: 'Sewing' as const, component: SewingScreen, icon: 'needle', label: 'Sewing' },
 ];
 
+
+
 // ===== TAB NAVIGATOR =====
 function TabNavigator() {
   return (
